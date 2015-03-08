@@ -1,0 +1,136 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at http://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
+        "This file is @generated automatically"
+    ],
+    "hash": "93783802864045bd3d439091d5ab9c9f",
+    "packages": [
+        {
+            "name": "gnugat/medio",
+            "version": "v1.0.0-alpha16",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/gnugat/medio.git",
+                "reference": "3d3ee56efa181749f7ef7b383e32d09e589077ff"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/gnugat/medio/zipball/3d3ee56efa181749f7ef7b383e32d09e589077ff",
+                "reference": "3d3ee56efa181749f7ef7b383e32d09e589077ff",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.3.3",
+                "twig/twig": "~1.18"
+            },
+            "require-dev": {
+                "ciaranmcnulty/phpspec-typehintedmethods": "~1.1",
+                "mnapoli/php-di": "~4.4",
+                "phpspec/phpspec": "~2.1",
+                "phpunit/phpunit": "~4.4",
+                "puli/cli": "~1.0@beta",
+                "puli/composer-plugin": "~1.0@beta",
+                "puli/discovery": "~1.0@beta",
+                "puli/factory": "~1.0@beta",
+                "puli/repository": "~1.0@beta",
+                "puli/repository-manager": "~1.0@beta",
+                "webmozart/glob": "~1.0@beta",
+                "webmozart/json": "~1.0@beta",
+                "webmozart/key-value-store": "~1.0@beta"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Gnugat\\Medio\\": "src/Gnugat/Medio"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Loïc Chardonnet",
+                    "email": "loic.chardonnet@gmail.com",
+                    "homepage": "http://gnugat.github.io",
+                    "role": "Developer"
+                }
+            ],
+            "description": "A highly opinionated PHP code generator library",
+            "keywords": [
+                "code",
+                "generator",
+                "php"
+            ],
+            "time": "2015-02-26 07:56:00"
+        },
+        {
+            "name": "twig/twig",
+            "version": "v1.18.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/twigphp/Twig.git",
+                "reference": "4cf7464348e7f9893a93f7096a90b73722be99cf"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/twigphp/Twig/zipball/4cf7464348e7f9893a93f7096a90b73722be99cf",
+                "reference": "4cf7464348e7f9893a93f7096a90b73722be99cf",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.2.4"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "1.18-dev"
+                }
+            },
+            "autoload": {
+                "psr-0": {
+                    "Twig_": "lib/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "BSD-3-Clause"
+            ],
+            "authors": [
+                {
+                    "name": "Fabien Potencier",
+                    "email": "fabien@symfony.com",
+                    "homepage": "http://fabien.potencier.org",
+                    "role": "Lead Developer"
+                },
+                {
+                    "name": "Armin Ronacher",
+                    "email": "armin.ronacher@active-4.com",
+                    "role": "Project Founder"
+                },
+                {
+                    "name": "Twig Team",
+                    "homepage": "http://twig.sensiolabs.org/contributors",
+                    "role": "Contributors"
+                }
+            ],
+            "description": "Twig, the flexible, fast, and secure template language for PHP",
+            "homepage": "http://twig.sensiolabs.org",
+            "keywords": [
+                "templating"
+            ],
+            "time": "2015-01-25 17:32:08"
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "stable",
+    "stability-flags": {
+        "gnugat/medio": 15
+    },
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": [],
+    "platform-dev": []
+}

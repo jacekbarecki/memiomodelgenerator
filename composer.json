@@ -1,0 +1,13 @@
+{
+    "name": "mediomodelgenerator",
+    "description": "A sample app that employs Medio to generate PHP model classes basing on the database schema",
+    "authors": [
+        {
+            "name": "Jacek Barecki",
+            "email": "jacek.barecki@gmail.com"
+        }
+    ],
+    "require": {
+        "gnugat/medio": "~1.0@alpha"
+    }
+}
