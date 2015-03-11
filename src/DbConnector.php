@@ -1,5 +1,7 @@
 <?php
 
+namespace JacekB\MedioModelGenerator;
+
 class DbConnector {
 
     /**
@@ -9,8 +11,8 @@ class DbConnector {
 
     public function __construct()
     {
-        $this->PDO = new PDO("mysql:host=" . Config::DATABASE_HOST . ";dbname=" . Config::DATABASE_NAME , Config::DATABASE_USERNAME, Config::DATABASE_PASSWORD);
-        $this->PDO->setAttribute( PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION );
+        $this->PDO = new \PDO("mysql:host=" . Config::DATABASE_HOST . ";dbname=" . Config::DATABASE_NAME , Config::DATABASE_USERNAME, Config::DATABASE_PASSWORD);
+        $this->PDO->setAttribute(\PDO::ATTR_ERRMODE, \PDO::ERRMODE_EXCEPTION);
     }
 
     public function __destruct()

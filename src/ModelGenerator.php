@@ -1,5 +1,7 @@
 <?php
 
+namespace JacekB\MedioModelGenerator;
+
 use \Gnugat\Medio\Model\Method;
 use \Gnugat\Medio\Model\Argument;
 use \Gnugat\Medio\Model\Object;
@@ -10,7 +12,7 @@ class ModelGenerator
 {
 
     /**
-     * @var Gnugat\Medio\PrettyPrinter
+     * @var \Gnugat\Medio\PrettyPrinter
      */
     private $medioPrettyPrinter;
 

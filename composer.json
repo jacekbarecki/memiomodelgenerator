@@ -9,5 +9,8 @@
     ],
     "require": {
         "gnugat/medio": "~1.0@alpha"
+    },
+    "autoload": {
+        "psr-4": {"JacekB\\MedioModelGenerator\\": "src/"}
     }
 }

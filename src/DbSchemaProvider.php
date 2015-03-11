@@ -1,5 +1,7 @@
 <?php
 
+namespace JacekB\MedioModelGenerator;
+
 class DbSchemaProvider
 {
     /**
@@ -40,7 +42,7 @@ class DbSchemaProvider
     private function getTablesList()
     {
         $statement = $this->dbConnector->getPDO()->query('SHOW TABLES');
-        $result = $statement->fetchAll(PDO::FETCH_NUM);
+        $result = $statement->fetchAll(\PDO::FETCH_NUM);
 
         foreach($result as $key => $value) {
             $result[$key] = $value[0];

@@ -1,5 +1,7 @@
 <?php
 
+namespace JacekB\MedioModelGenerator;
+
 class Config
 {
     const DATABASE_HOST = '<enter host>';
