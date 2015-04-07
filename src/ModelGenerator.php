@@ -1,27 +1,27 @@
 <?php
 
-namespace JacekB\MedioModelGenerator;
+namespace JacekB\MemioModelGenerator;
 
-use \Gnugat\Medio\Model\Method;
-use \Gnugat\Medio\Model\Argument;
-use \Gnugat\Medio\Model\Object;
-use \Gnugat\Medio\Model\Property;
-use \Gnugat\Medio\PrettyPrinter;
+use \Memio\Memio\Model\Method;
+use \Memio\Memio\Model\Argument;
+use \Memio\Memio\Model\Object;
+use \Memio\Memio\Model\Property;
+use \Memio\Memio\PrettyPrinter;
 
 class ModelGenerator
 {
 
     /**
-     * @var \Gnugat\Medio\PrettyPrinter
+     * @var \Memio\Memio\PrettyPrinter
      */
-    private $medioPrettyPrinter;
+    private $memioPrettyPrinter;
 
     /**
-     * @param PrettyPrinter $medioPrettyPrinter
+     * @param PrettyPrinter $memioPrettyPrinter
      */
-    public function __construct(PrettyPrinter $medioPrettyPrinter)
+    public function __construct(PrettyPrinter $memioPrettyPrinter)
     {
-        $this->medioPrettyPrinter = $medioPrettyPrinter;
+        $this->memioPrettyPrinter = $memioPrettyPrinter;
     }
 
     /**
@@ -62,6 +62,6 @@ class ModelGenerator
             $object->addMethod($setter);
         }
 
-        return $this->medioPrettyPrinter->generateCode($object);
+        return $this->memioPrettyPrinter->generateCode($object);
     }
 }

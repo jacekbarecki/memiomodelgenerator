@@ -1,6 +1,6 @@
 <?php
 
-namespace JacekB\MedioModelGenerator;
+namespace JacekB\MemioModelGenerator;
 
 class DbConnector {
 

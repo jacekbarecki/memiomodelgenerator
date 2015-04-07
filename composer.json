@@ -1,6 +1,6 @@
 {
-    "name": "mediomodelgenerator",
-    "description": "A sample app that employs Medio to generate PHP model classes basing on the database schema",
+    "name": "memiomodelgenerator",
+    "description": "A sample app that employs Memio to generate PHP model classes basing on the database schema",
     "authors": [
         {
             "name": "Jacek Barecki",
@@ -8,9 +8,9 @@
         }
     ],
     "require": {
-        "gnugat/medio": "~1.0@alpha"
+        "memio/memio": "~1.0@rc"
     },
     "autoload": {
-        "psr-4": {"JacekB\\MedioModelGenerator\\": "src/"}
+        "psr-4": {"JacekB\\MemioModelGenerator\\": "src/"}
     }
 }

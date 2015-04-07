@@ -4,20 +4,20 @@
         "Read more about it at http://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "93783802864045bd3d439091d5ab9c9f",
+    "hash": "be62150523a76de8e318689722d65b66",
     "packages": [
         {
-            "name": "gnugat/medio",
-            "version": "v1.0.0-alpha16",
+            "name": "memio/memio",
+            "version": "v1.0.0-rc7",
             "source": {
                 "type": "git",
-                "url": "https://github.com/gnugat/medio.git",
-                "reference": "3d3ee56efa181749f7ef7b383e32d09e589077ff"
+                "url": "https://github.com/memio/memio.git",
+                "reference": "c1bba7c6e0dd705ad5acf6aea36c4bb941409d89"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/gnugat/medio/zipball/3d3ee56efa181749f7ef7b383e32d09e589077ff",
-                "reference": "3d3ee56efa181749f7ef7b383e32d09e589077ff",
+                "url": "https://api.github.com/repos/memio/memio/zipball/c1bba7c6e0dd705ad5acf6aea36c4bb941409d89",
+                "reference": "c1bba7c6e0dd705ad5acf6aea36c4bb941409d89",
                 "shasum": ""
             },
             "require": {
@@ -26,9 +26,10 @@
             },
             "require-dev": {
                 "ciaranmcnulty/phpspec-typehintedmethods": "~1.1",
+                "fabpot/php-cs-fixer": "~1.6",
                 "mnapoli/php-di": "~4.4",
-                "phpspec/phpspec": "~2.1",
-                "phpunit/phpunit": "~4.4",
+                "phpspec/phpspec": "~2.2@beta",
+                "phpunit/phpunit": "~4.5",
                 "puli/cli": "~1.0@beta",
                 "puli/composer-plugin": "~1.0@beta",
                 "puli/discovery": "~1.0@beta",
@@ -42,7 +43,8 @@
             "type": "library",
             "autoload": {
                 "psr-4": {
-                    "Gnugat\\Medio\\": "src/Gnugat/Medio"
+                    "Memio\\Memio\\": "src/Memio/Memio",
+                    "Memio\\Memio\\Config\\": "config"
                 }
             },
             "notification-url": "https://packagist.org/downloads/",
@@ -58,12 +60,13 @@
                 }
             ],
             "description": "A highly opinionated PHP code generator library",
+            "homepage": "http://memio.github.io/memio",
             "keywords": [
                 "code",
                 "generator",
                 "php"
             ],
-            "time": "2015-02-26 07:56:00"
+            "time": "2015-03-31 18:18:50"
         },
         {
             "name": "twig/twig",
@@ -127,7 +130,7 @@
     "aliases": [],
     "minimum-stability": "stable",
     "stability-flags": {
-        "gnugat/medio": 15
+        "memio/memio": 5
     },
     "prefer-stable": false,
     "prefer-lowest": false,

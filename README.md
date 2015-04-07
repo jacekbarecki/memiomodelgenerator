@@ -1,6 +1,6 @@
-Medio Model Generator
+Memio Model Generator
 ====================
-A sample app that employs Medio to generate PHP model classes basing on the database schema.
+A sample app that employs Memio to generate PHP model classes basing on the database schema.
 
 ## Setup
 Enter the database settings in `src/Config.php`:
